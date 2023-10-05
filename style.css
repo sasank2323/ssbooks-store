@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+   }
+   i:hover{
+       border:2px solid gray;
+   }
+   a:hover{
+       border:2px solid gray;
+   }
+   /**box1**/
+   .nav{   
+       height:60px;
+       background-color: #0f1111;
+       color:white;
+       display:flex;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   .navlogo
+   {
+      height:50px;
+      width:100px; 
+   }
+   .logo{
+       background-image:url("logo1.jpeg");
+       height:50px;
+       width:100px;
+       background-size:contain;
+       background-repeat: no-repeat;
+   }
+   .border{
+       border:2px solid transparent;
+   }
+   .border:hover{
+       border:2px solid white;
+   }
+   /**box2**/
+   .navadd {
+       margin-top: 20px;
+       align-items: center;
+       margin-bottom:20px ;
+   }
+   .first
+   {  
+       font-size:0.85rem;
+       color:#cccccc;
+       margin-left:15px;
+   }
+   .second{
+       font-size:1rem;
+       margin-left:3px;
+   }
+   .loc
+   {
+       display:flex;
+       
+   }
+   /**box3**/
+   .nav-search{
+       display:flex;
+       justify-content: space-evenly;
+       background-color: pink;
+       width:620px;
+       height:40px;
+       border-radius:4px;
+   }
+   .search-select
+   {
+       background-color:#f3f3f3;
+       width:50px;
+       border-top-left-radius:4px ;
+       border-bottom-left-radius: 4px;
+       border:none;
+   }
+   .search-input{
+       width:100%;
+       font-size:1rem;
+       border:none;
+   }
+   .search-icon{
+       width:45px;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       font-size:1.2rem ;
+       background-color:#febd68;
+       border-top-right-radius:4px ;
+       border-bottom-right-radius:4px ;
+       color:#0f1111;
+   }
+   .nav-search:hover{
+       border: 5px solid blue;
+   }
+   
+   /** here we are increasing size of i selector by refering parent class cart**/
+   .cart i
+   {
+       
+       font-size:30px;
+   }
+   .cart{
+       font-size:0.85rem ;
+   }
+   
+   /** panel styling **/
+   .panel{
+       height:40px;
+       background-color: #222f3d;
+       display:flex;
+      color:white;
+      align-items: center;
+      justify-content:space-evenly ;
+   
+   }
+   
+   .panel-ops a{
+       display:inline; 
+       margin-left:20px; ;
+   }
+   .panel-ops
+   {
+       width:70%;
+       font-size: 0.90rem;
+   
+   }
+   .panel-deals
+   {
+       font-size:0.90rem;
+       font-weight:300px ;
+   }
+   
+   
+   
+   .hero-section{
+       background-image:url("library.jpeg ");
+       background-size: contain;
+       height:350px;
+       
+   
+   }
+   .msg{
+       background-color: white;
+       color:black;
+       height:40px;
+       width:100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size:0.85rem;
+       position:relative;
+       top:300px; 
+   
+   }
+   
+   
+   .box-section{
+       
+       display:flex;
+       flex-wrap: wrap;
+       justify-content:space-evenly;
+       background-color:#e2e7e6 ;
+   }
+   
+   .box
+   {
+       position: relative;
+       top:10px;
+       margin-left:10px; ;
+       height:400px;
+       margin-bottom:10px; ;
+       width:20rem;
+       background-color:white ;
+       padding:20px 0px 15px; ;
+       
+   }
+   .img{
+    margin-left:35px ;
+    margin-right:10px;
+       margin-top:15px;
+       margin-bottom:15px; 
+       height:85%;
+       background-size: contain;
+       background-repeat: no-repeat;
+   }
+   
+   .box p{
+       color:#007185;
+   }
+   
+   
+   /**footer**/
+   .footer{
+       margin-top:30px;
+   }
+   .footer1{
+       background-color: #37475a;
+       height:50px;
+       color:white;
+       display:flex;
+       justify-content: center;
+       align-items:center;
+       font-size: 0.85rem;
+   }
+   
+   .footer2{
+       background-color:#222f3d ;
+       color:white;
+       height:300px;
+       display:flex;
+       justify-content:space-evenly ;
+     
+   
+   }
+   .footer2 ul a{
+       display:block;
+       color:white;
+       font-size: 0.85rem;
+       margin-top:10px;
+   }
+   
+   ul{
+       margin-top: 10px;
+   }
+   
+   .footer3{
+       background-color: #222f3d;
+       color:white;
+       border:1px solid white;
+       height:60px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   
+   }
+   .logo{
+       background-image:url("logo1.jpeg");
+       height:50px;
+       width:100px;
+       background-size:contain;
+       background-repeat: no-repeat;
+   }
